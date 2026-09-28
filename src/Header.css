@@ -1,0 +1,11 @@
+.header-avatar {
+  display: grid;
+  place-items: center;   /* centers the icon */
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;    /* makes it a circle */
+  background: #E7E5DF;   /* light gray */
+  color: #7A7A72;        
+  border: 1px solid #D9D6CE;
+  flex-shrink: 0;       
+}
