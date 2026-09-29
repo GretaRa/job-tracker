@@ -1,0 +1,34 @@
+:root {
+	/* Colors */
+	--color-bg: #e5e3df;
+	--color-bg-light: #ffffff;
+	--color-border: #e5e3df;
+	--color-text: #1f1f1f;
+	--color-text-secondary: #6b6a66;
+	--color-text-light: #96948f;
+
+	--color-primary: #6b8272;
+	--color-primary-hover: #5c7163;
+	--color-primary-soft: #e8ede9; /* current timeline step */
+	--color-on-primary: #ffffff;
+
+	--color-danger: #9c3a3c;
+
+	--color-disabled-bg: #e5e3df;
+	--color-disabled-text: #96948f;
+
+	/* Typography */
+	--font-sans: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+	--text-caption: 0.75rem; /* 12px */
+	--text-body: 0.875rem; /* 14px */
+	--text-base: 1rem; /* 16px, inputs */
+	--text-subheading: 1.25rem; /* 20px */
+	--text-heading: 1.5rem; /* 24px */
+	--text-display: 2rem; /* 32px */
+
+	/* Shape */
+	--radius-button: 6px;
+	--radius-input: 8px;
+	--radius-card: 8px;
+	--radius-badge: 6px;
+}
