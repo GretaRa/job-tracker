@@ -9,3 +9,43 @@
   border: 1px solid #D9D6CE;
   flex-shrink: 0;       
 }
+
+a{
+  all: unset;
+  cursor: pointer;
+}
+
+.header{
+  background-color: #FFFFFF;
+  color: #1F1F1F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  
+}
+
+.header-company{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.header-logo{
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.375rem; 
+  background-color: #6B8272; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-name{
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.header-user-text{
+  display: none;
+}

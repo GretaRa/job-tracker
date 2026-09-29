@@ -5,9 +5,9 @@ import '../Header.css'
 function Header (){
   return (
     <header className="header">
-      <Link to="/">
+      <Link to="/" className="header-company">
         <span className="header-logo" aria-hidden="true">
-          <Briefcase size={16} strokeWidth={2}/>
+          <Briefcase size={14} color="#fff" strokeWidth={2}/>
         </span>
         <span className="header-name">CareerPath</span>
       </Link>
