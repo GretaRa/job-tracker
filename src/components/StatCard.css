@@ -1,0 +1,18 @@
+.stat-card {
+	background-color: var(--color-bg-light);
+	border: 1px solid var(--color-border);
+	border-radius: var(--radius-card);
+	padding: 12px;
+	flex: 1;
+}
+
+.stat-number {
+	font-size: var(--text-subheading);
+	font-weight: bold;
+	color: var(--color-text);
+}
+
+.stat-name {
+	color: var(--color-text-secondary);
+	font-size: var(--text-caption);
+}
