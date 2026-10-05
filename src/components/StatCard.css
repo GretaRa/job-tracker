@@ -3,6 +3,7 @@
 	border: 1px solid var(--color-border);
 	border-radius: var(--radius-card);
 	padding: 12px;
+	margin-top: 16px;
 	flex: 1;
 }
 
@@ -15,4 +16,10 @@
 .stat-name {
 	color: var(--color-text-secondary);
 	font-size: var(--text-caption);
+}
+
+@media (min-width: 768px) {
+	.stat-card {
+		margin-top: 32px;
+	}
 }

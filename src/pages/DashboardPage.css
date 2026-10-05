@@ -1,20 +1,35 @@
-.dashboard-page{
-  padding: 16px 20px;
+.dashboard-page {
+	padding: 0 20px;
 }
 
-.statRow{
-  display: flex;
-  justify-content: space-evenly;
-  min-width: 110px;
-  gap: 10px;
+.statRow {
+	display: flex;
+	justify-content: space-evenly;
+	min-width: 110px;
+	gap: 10px;
+}
+
+.filters-carousel {
+	display: flex;
+	gap: 6px;
+	margin-top: 20px;
+	overflow-x: auto;
+	overscroll-behavior-x: contain;
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none;
+	touch-action: pan-x;
+}
+
+.filters-carousel::-webkit-scrollbar {
+	display: none; /* Chrome/Safari */
 }
 
 @media (min-width: 768px) {
-  .dashboard-page {
-    padding: 32px 40px;
-  }
+	.dashboard-page {
+		padding: 0 40px;
+	}
 
-  .statRow{
-  gap: 16px;
-}
+	.statRow {
+		gap: 16px;
+	}
 }
