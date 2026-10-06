@@ -1,7 +1,3 @@
-.dashboard-page {
-	padding: 0 20px;
-}
-
 .statRow {
 	display: flex;
 	justify-content: space-evenly;
@@ -11,7 +7,6 @@
 
 .filters-carousel {
 	display: flex;
-	gap: 6px;
 	margin-top: 20px;
 	overflow-x: auto;
 	overscroll-behavior-x: contain;
@@ -20,15 +15,24 @@
 	touch-action: pan-x;
 }
 
+.filters-carousel ul {
+	display: flex;
+	gap: 6px;
+	flex: 0 0 auto;
+}
+
 .filters-carousel::-webkit-scrollbar {
 	display: none; /* Chrome/Safari */
 }
 
-@media (min-width: 768px) {
-	.dashboard-page {
-		padding: 0 40px;
-	}
+.application-list{
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding: 20px 0;
+}
 
+@media (min-width: 768px) {
 	.statRow {
 		gap: 16px;
 	}

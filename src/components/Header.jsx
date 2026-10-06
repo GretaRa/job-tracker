@@ -9,7 +9,7 @@ function Header() {
 				<span className="header-logo" aria-hidden="true">
 					<Briefcase size={14} color="#fff" strokeWidth={2} />
 				</span>
-				<span className="header-name">CareerPath</span>
+				<h1 className="header-name">CareerPath</h1>
 			</Link>
 			<div className="header-user">
 				<div className="header-user-text">

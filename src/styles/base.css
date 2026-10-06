@@ -38,7 +38,7 @@ h2 {
 	font-size: var(--text-subheading);
 }
 h3 {
-	font-size: var(--text-body);
+	font-size: var(--text-base);
 }
 
 a {
@@ -55,9 +55,37 @@ button {
   background: none;
   border: none;
 }
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
 :focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
+}
+
+.page {
+	padding-inline: var(--page-pad);
+}
+
+.full-bleed {
+  margin-inline: calc(var(--page-pad) * -1);
+  padding-inline: var(--page-pad);
+}
+
+.card {
+	background-color: var(--color-bg-light);
+	border: 1px solid var(--color-border);
+	border-radius: var(--radius-card);
 }
 
 /* Acessibility */
@@ -68,4 +96,10 @@ button {
   overflow: hidden;
   clip: rect(0 0 0 0);
   white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+	.page {
+		padding-inline: calc(var(--page-pad) * 2);
+	}
 }
