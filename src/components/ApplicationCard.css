@@ -1,6 +1,17 @@
-.application-card{
-  display: flex;
-  flex-direction: column;
-  padding: 16px;
+.application-card {
+	display: flex;
+	flex-direction: column;
+	padding: 16px;
+	gap: 12px;
+}
 
+.application-card-top,
+.application-card-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.application-card-bottom {
+	color: var(--color-text-light);
 }

@@ -1,10 +1,12 @@
-import "./ApplicationCard.css"
+import "./ApplicationCard.css";
+import StatusBadge from "./StatusBadge";
 
 function ApplicationCard({
 	applicationCompany,
 	applicationPosition,
 	applicationLocation,
-	applicationDate}) {
+	applicationDate,
+}) {
 	return (
 		<div className="card application-card">
 			<div className="application-card-top">
@@ -12,8 +14,7 @@ function ApplicationCard({
 					<h3 className="application-card-company">{applicationCompany}</h3>
 					<p className="application-card-position">{applicationPosition}</p>
 				</div>
-        <div className="stat">Applied</div>
-				{/* <StatusBadge /> */}
+				<StatusBadge statusName={"Applied"} />
 			</div>
 			<div className="application-card-bottom">
 				<span>{applicationLocation}</span>
@@ -23,4 +24,4 @@ function ApplicationCard({
 	);
 }
 
-export default ApplicationCard
+export default ApplicationCard;
